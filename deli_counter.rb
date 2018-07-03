@@ -6,7 +6,7 @@ def line(array)
     array.each do |person|
       
     end
-    puts "The line is currently "
+    puts "The line is currently: #{current_line}"
   end
 end
 
