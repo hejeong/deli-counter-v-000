@@ -13,7 +13,8 @@ def take_a_number(line, name)
 end
 
 def now_serving(array)
-  if array.length === 0
+  if array.length === 0 
+    
   next_person = array.shift
   
 end
