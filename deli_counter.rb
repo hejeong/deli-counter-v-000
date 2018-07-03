@@ -4,8 +4,9 @@ def line(array)
     puts "The line is currently empty."
   else
     string = ""
+    count = 0
     array.each do |person|
-      
+      string << 
     end
     puts "The line is currently: #{current_line}"
   end
