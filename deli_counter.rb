@@ -7,9 +7,9 @@ def line(array)
     count = 0
     array.each do |person|
       count += 1
-      string << #{
+      string << ` #{count}. #{person}`
     end
-    puts "The line is currently: #{current_line}"
+    puts "The line is currently:#{current_line}"
   end
 end
 
