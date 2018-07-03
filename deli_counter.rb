@@ -6,6 +6,7 @@ def line(array)
     string = ""
     count = 0
     array.each do |person|
+      count += 1
       string << 
     end
     puts "The line is currently: #{current_line}"
