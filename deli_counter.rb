@@ -12,4 +12,8 @@ def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
 end
 
-def now_serving
+def now_serving(array)
+  if array.length === 0
+  next_person = array.shift
+  
+end
