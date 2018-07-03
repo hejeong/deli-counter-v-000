@@ -15,6 +15,7 @@ end
 def now_serving(array)
   if array.length === 0 
     
+  else
   next_person = array.shift
   
 end
