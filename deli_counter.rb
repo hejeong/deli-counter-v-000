@@ -5,6 +5,7 @@ def line(array)
   else
     array.each do |person|
       
+    end
   end
 end
 
